@@ -1,149 +1,240 @@
-# 🤖 EMMA: Enhanced EDA Chatbot with Advanced Features
+<p align="center">🚀 EMMA EDA – A Conversational Exploratory Data Analysis Assistant</p>
+<p align="center">Natural-language powered exploratory data analysis, visualizations, insights, and automated reasoning.</p>
+<p align="center">🏷️ Badges</p>
+<p align="center"> <!-- Core Badges --> <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" /> <img src="https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit" /> <img src="https://img.shields.io/badge/LangChain-Framework-orange?logo=chainlink" /> <img src="https://img.shields.io/badge/Groq-LLaMA3-green?logo=groq" /> <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> <!-- Stylish Badges -->
 
-## Overview
-EMMA (Enhanced Machine Learning Assistant) is a powerful web application designed to facilitate Exploratory Data Analysis (EDA) through natural language queries. Built with Streamlit and advanced data processing capabilities, EMMA provides an intuitive, feature-rich interface for data exploration and visualization.
+<br><br>
+<img src="https://img.shields.io/badge/EMMA-EDA%20Assistant-0A84FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Powered%20by-AI-black?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Conversational-EDA-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Made%20with%20❤️-by%20Ajay-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Data%20Analysis-Automated-success?style=for-the-badge" />
 
-## ✨ Key Features
+</p>
+🚀 Overview
 
-### 🎨 **Theme Support**
-- **Dark & Light Mode Toggle** - Switch between themes with one click
-- **Appwrite-inspired UI Design** - Modern, clean interface
-- **Pure white text in dark mode** - Optimal contrast and readability
-- **Adaptive font sizing** - Responsive design that adapts to system preferences
+EMMA (Exploratory Machine-learning Model Assistant) is a conversational EDA system that allows users to analyze datasets using natural language instead of writing code. EMMA integrates:
 
-### 📊 **Advanced Visualizations**
-- **Multiple Chart Types**: Bar Charts, Pie Charts, Line Charts, Box Plots, Scatter Plots, Histograms
-- **Interactive Charts** - Powered by Plotly for rich interactions
-- **Download Options** - Save charts as PNG or PDF with dedicated buttons
-- **Fullscreen View** - Enhanced viewing experience for detailed analysis
+Streamlit for the UI
 
-### 📁 **Multiple File Format Support**
-- **CSV, Excel (.xlsx, .xls)**
-- **JSON, TSV, Parquet**
-- **PDF, TXT** (with text extraction)
-- **Auto-detection** and processing with pandas
+LangChain for prompt routing
 
-### 💾 **Downloadable Outputs**
-- **Cleaned datasets** - Export filtered results as CSV
-- **Chart downloads** - Save visualizations as PNG/PDF
-- **Session summaries** - Download complete chat history as text
-- **Data exports** - Export processed datasets
+Groq LLaMA-3 / GPT-4 API for reasoning
 
-### 🗃️ **Chat History System**
-- **SQLite Database** - Persistent storage of all conversations
-- **Session Management** - Organize chats by dataset and timestamp
-- **Auto-generated titles** - Smart session naming
-- **Message persistence** - Never lose your analysis
+Pandas + Plotly for data processing
 
-### 🔍 **Searchable Chat History**
-- **Keyword search** - Find specific conversations
-- **Date/time filtering** - Browse by time period
-- **File-based search** - Find chats by dataset name
-- **Fuzzy matching** - Intelligent search algorithms
+SQLite for session history
 
-### 📋 **SQL-Like Tabular Output**
-- **Structured data display** - Clean, organized table views
-- **Filtered results** - Show specific data subsets
-- **Sortable columns** - Interactive data exploration
-- **Export capabilities** - Download filtered results
+EMMA transforms EDA from manual coding → interactive, AI-driven conversation.
 
-### ⚡ **Quick EDA Actions**
-- **One-click analysis** - Summary stats, missing values, correlations
-- **Outlier detection** - Automatic identification of data anomalies
-- **Data health scoring** - Quality assessment with actionable insights
-- **Smart suggestions** - Context-aware recommendations
+It automates:
 
-## 🚀 Installation
+✔ Statistical summaries
+✔ Data cleaning & preprocessing
+✔ Correlation analysis
+✔ Outlier detection
+✔ Visualizations (bar, pie, scatter, heatmap, box plot)
+✔ Full conversational explanations
+✔ Persistent chat history
 
-```bash
-git clone <repository-url>
-cd EDA-Chatbot-using-LangChain-Streamlit-and-LLMs-for-Natural-Language-Data-Exploration
-pip install -r requirements.txt
-```
+🧠 Key Capabilities
+🗂️ 1. Upload Any Dataset
 
-## 🎯 Usage
+Supports:
 
-```bash
-streamlit run src/app.py
-```
+CSV, TSV
 
-## 📁 Project Structure
-```
-EMMA-CONVERSATIONAL-EDA
+Excel (.xls, .xlsx)
 
-EMMA-Converesional-EDA-Assistant
-├── src/
-│   ├── app.py                 # Main Streamlit application
-│   └── llm/
-│       └── llm_api.py         # Generic LLM integration (supports Ollama)
-├── requirements.txt       # Python dependencies
-├── README.md                 # Project documentation
-├── .streamlit/               # Streamlit configuration
+JSON
+
+Parquet
+
+TXT & PDF (extraction)
+
+Auto-detects schema & infers data types.
+
+💬 2. Conversational Analysis
+
+Ask questions like:
+
+“Show the top 10 customers by amount spent.”
+“Plot a pie chart of product categories.”
+“Find outliers in the salary column.”
+“Display correlation heatmap.”
+
+EMMA → interprets → generates code → visualizes → explains.
+
+📊 3. Visualization Engine
+
+Powered by Plotly:
+
+Bar charts
+
+Pie charts
+
+Heatmaps
+
+Line charts
+
+Scatter plots
+
+Boxplots
+
+Supports:
+
+✨ Full-screen
+✨ Download (PNG/PDF)
+✨ Hover interactions
+
+🔍 4. Quick EDA Tools
+
+Missing value detection
+
+Outlier detection
+
+Statistical summaries
+
+Correlation matrices
+
+Data quality insights
+
+🗄️ 5. Chat History & Session Management
+
+Conversation saved in SQLite
+
+Auto session creation
+
+Searchable history
+
+Clean session grouping
+
+🎨 6. Modern UI
+
+Light & Dark mode
+
+Clean sidebar layout
+
+Inspired by Appwrite & Vercel
+
+Responsive fonts
+
+🧱 Project Structure
+EMMA-Conversational-EDA-Assistant/
+│
+├── .streamlit/
 │   └── config.toml
-└── chat_history.db         # SQLite database for chat persistence
-```
+│
+├── assets/
+│   ├── diagrams/
+│   └── images/
+│
+├── src/
+│   ├── app.py                    # Main Streamlit application
+│   └── llm/
+│       └── llm_api.py            # LLM interface (Groq / GPT integration)
+│
+├── .env.example                  # Template for API keys
+├── README.md                    # Documentation
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Ignored files
+├── chat_history.db              # SQLite DB (do NOT push to GitHub)
 
-## 💬 Example Queries
+📦 Installation
+1️⃣ Clone the repo
+git clone https://github.com/<your-username>/EMMA-EDA.git
+cd EMMA-EDA
 
-### Data Analysis
-- "Show me people under 30"
-- "What's the average salary?"
-- "List all people with salary > 50000"
-- "Give me a summary of the dataset"
+2️⃣ Install dependencies
+pip install -r requirements.txt
 
-### Visualizations
-- "Visualize the salary distribution"
-- "Create a bar chart of ages"
-- "Show me a scatter plot of age vs salary"
-- "Generate a pie chart of categories"
+3️⃣ Create environment file
+cp .env.example .env
 
-### Advanced Queries
-- "Find outliers in the data"
-- "Show correlation matrix"
-- "Check for missing values"
-- "Export filtered results"
 
-## 🎨 Theme Features
+Add your Groq / OpenAI keys inside .env
 
-### Light Mode
-- Clean white background
-- High contrast text
-- Professional appearance
-- Optimized for daytime use
+▶️ Run the App
+streamlit run src/app.py
 
-### Dark Mode
-- Pure white text on dark background
-- Reduced eye strain
-- Modern aesthetic
-- Perfect for low-light environments
 
-## 📊 Visualization Gallery
+App URL:
+👉 http://localhost:8501/
 
-EMMA supports a wide range of chart types:
-- **Bar Charts** - For categorical data comparison
-- **Pie Charts** - For proportion visualization
-- **Line Charts** - For trend analysis
-- **Scatter Plots** - For correlation exploration
-- **Box Plots** - For distribution analysis
-- **Histograms** - For frequency distribution
-- **Correlation Matrices** - For relationship analysis
+🧪 Example EDA Queries
+🔹 Basic Queries
 
-## 🔧 Technical Features
+“Show summary statistics”
 
-- **Responsive Design** - Works on desktop and mobile
-- **Real-time Processing** - Instant analysis and visualization
-- **Memory Efficient** - Optimized for large datasets
-- **Error Handling** - Graceful error recovery
-- **Session Persistence** - Maintains state across browser sessions
+“Display the first 10 rows”
 
-## 🤝 Contributing
+“Find missing values”
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+🔹 Visualization
 
-## 📄 License
+“Plot salary distribution histogram”
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+“Scatter plot age vs salary”
 
----
+“Create a pie chart of categories”
 
-**Made with ❤️ by EMMA - Your Intelligent Data Analysis Assistant**
+🔹 Intermediate
+
+“Find outliers in the sales column”
+
+“Show correlation heatmap”
+
+“Plot monthly revenue trend”
+
+🔹 Advanced
+
+“Generate a box plot grouped by region”
+
+“Compare warehouse vs retail sales”
+
+“Analyze customer spending patterns”
+
+⚙️ Tech Stack
+🖥️ Frontend
+
+Streamlit
+
+Plotly
+
+🧩 Backend
+
+Python
+
+Pandas, NumPy
+
+LangChain
+
+🤖 LLM Layer
+
+Groq LLaMA-3
+
+GPT-4 (optional)
+
+🗄 Database
+
+SQLite for chat history
+
+🔐 Security
+
+.env excluded from GitHub
+
+API keys stored safely
+
+SQLite DB can be reset anytime
+
+EMMA does not upload user data externally
+
+📄 License
+
+This project is licensed under the MIT License.
+
+❤️ Developed by
+
+Ajay M
+B.Tech Artificial Intelligence & Data Science
+Vel Tech High Tech, Chennai
