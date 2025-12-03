@@ -120,6 +120,8 @@ Inspired by Appwrite & Vercel
 Responsive fonts
 
 🧱 Project Structure
+EMMA-CONVERSATIONAL-EDA
+|
 EMMA-Conversational-EDA-Assistant/
 │
 ├── .streamlit/
@@ -132,13 +134,15 @@ EMMA-Conversational-EDA-Assistant/
 ├── src/
 │   ├── app.py                    # Main Streamlit application
 │   └── llm/
-│       └── llm_api.py            # LLM interface (Groq / GPT integration)
+│       └── llm_api.py            # LLM interface
 │
-├── .env.example                  # Template for API keys
+├── .env.example                  # Template for environment variables
 ├── README.md                    # Documentation
-├── requirements.txt             # Python dependencies
+├── requirements.txt             # Dependencies
 ├── .gitignore                   # Ignored files
-├── chat_history.db              # SQLite DB (do NOT push to GitHub)
+├── chat_history.db              # SQLite DB (should NOT be pushed)
+         # SQLite database for chat persistence
+```
 
 📦 Installation
 1️⃣ Clone the repo
