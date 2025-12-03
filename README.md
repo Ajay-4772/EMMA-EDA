@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/EMMA-EDA%20Assistant-0A84FF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Powered%20by-AI-black?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Conversational-EDA-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Made%20with%20❤️-by%20Ajay-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Made%20with%20❤️-by%20Ajay , Muralidharan , Krishna-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Data%20Analysis-Automated-success?style=for-the-badge" />
 
 </p>
@@ -217,8 +217,6 @@ This project is licensed under the MIT License.
 ❤️ Developed by
 
 Ajay M
-
-Team Members
 
 Muralidharan R
 
