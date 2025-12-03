@@ -119,32 +119,9 @@ Inspired by Appwrite & Vercel
 
 Responsive fonts
 
-🧱 Project Structure
-EMMA-CONVERSATIONAL-EDA
-|
-EMMA-Conversational-EDA-Assistant/
-│
-├── .streamlit/
-│   └── config.toml
-│
-├── assets/
-│   ├── diagrams/
-│   └── images/
-│
-├── src/
-│   ├── app.py                    # Main Streamlit application
-│   └── llm/
-│       └── llm_api.py            # LLM interface
-│
-├── .env.example                  # Template for environment variables
-├── README.md                    # Documentation
-├── requirements.txt             # Dependencies
-├── .gitignore                   # Ignored files
-├── chat_history.db              # SQLite DB (should NOT be pushed)
-         # SQLite database for chat persistence
-```
 
 📦 Installation
+
 1️⃣ Clone the repo
 git clone https://github.com/<your-username>/EMMA-EDA.git
 cd EMMA-EDA
@@ -240,5 +217,4 @@ This project is licensed under the MIT License.
 ❤️ Developed by
 
 Ajay M
-B.Tech Artificial Intelligence & Data Science
-Vel Tech High Tech, Chennai
+
