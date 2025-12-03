@@ -1,8 +1,6 @@
 <p align="center">🚀 EMMA EDA – A Conversational Exploratory Data Analysis Assistant</p>
 <p align="center">Natural-language powered exploratory data analysis, visualizations, insights, and automated reasoning.</p>
-<p align="center">🏷️ Badges</p>
 <p align="center"> <!-- Core Badges --> <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" /> <img src="https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit" /> <img src="https://img.shields.io/badge/LangChain-Framework-orange?logo=chainlink" /> <img src="https://img.shields.io/badge/Groq-LLaMA3-green?logo=groq" /> <img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> <!-- Stylish Badges -->
-
 <br><br>
 <img src="https://img.shields.io/badge/EMMA-EDA%20Assistant-0A84FF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Powered%20by-AI-black?style=for-the-badge" />
@@ -11,6 +9,7 @@
 <img src="https://img.shields.io/badge/Data%20Analysis-Automated-success?style=for-the-badge" />
 
 </p>
+
 🚀 Overview
 
 EMMA (Exploratory Machine-learning Model Assistant) is a conversational EDA system that allows users to analyze datasets using natural language instead of writing code. EMMA integrates:
@@ -38,6 +37,7 @@ It automates:
 ✔ Persistent chat history
 
 🧠 Key Capabilities
+
 🗂️ 1. Upload Any Dataset
 
 Supports:
